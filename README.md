@@ -27,22 +27,22 @@ Una vez creadas, añadelas a las variables de cabecera del fichero `app.js`:
 ## Utilidades para Canales de Pago
 
 
-  * Generar Canal de Pago
+  * Generar Canal de Pago  
   `modo=crearCanalDePago valor={valor} node app`
 
-  * Detalles de un Canal de Pago
+  * Detalles de un Canal de Pago  
   `modo=detallesCanalDePago id={id del canal} node app`
 
-  * Generar un claim en un Canal de Pago
+  * Generar un claim en un Canal de Pago  
   `modo=generarClaimCanalDePago id={id del canal} valor={valor} node app`
 
-  * Verificar el claim de un Canal de Pago
+  * Verificar el claim de un Canal de Pago  
   `modo=verificarClaimCanalDePago id={id del canal} valor=200 firma={firma} node app`
 
-  * Hacer claim en un Canal de Pago
+  * Hacer claim en un Canal de Pago  
   `modo=hacerClaimCanalDePago id={id del canal} valor={valor} firma={firma} node app`
 
-  * Cerrar Canal de Pago
+  * Cerrar Canal de Pago  
   `modo=cerrarCanalDePago id={id del canal} node app`
 
 ## Artículos
