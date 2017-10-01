@@ -1,0 +1,21 @@
+{
+  "name": "ejemplo-ripple-lib-canales-de-pago",
+  "version": "0.0.1",
+  "description": "Código de ejemplo para un canal de pago en el XRP Ledger con ripple-lib.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xrptoday/ejemplo-ripple-lib-canales-de-pago.git"
+  },
+  "author": "xrp-coder",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "chalk": "^2.1.0",
+    "ripple-keypairs": "^0.10.0",
+    "ripple-lib": "^0.17.7"
+  }
+}
